@@ -10,6 +10,8 @@ namespace HelloGit
     {
         static void Main(string[] args)
         {
+            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine("Hello Git");
         }
     }
